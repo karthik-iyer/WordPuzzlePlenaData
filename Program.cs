@@ -17,9 +17,9 @@ namespace WordPuzzle
             {
                 Console.WriteLine("Cannot solve the Word Puzzle");
             }
-            else if(wordPuzzle.Any(ch => char.IsDigit(ch)))
+            else if(wordPuzzle.Any(ch => !char.IsLetter(ch) || char.IsUpper(ch)))
             {
-                Console.WriteLine("Cannot solve the Word Puzzle");
+                Console.WriteLine("Cannot solve the Word Puzzle. Please enter word with only lower case letters.");
             }
             else
             {
