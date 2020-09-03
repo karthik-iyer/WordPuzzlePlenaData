@@ -1,15 +1,15 @@
 # WordPuzzlePlenaData
 
-Programming Language : C#
+<b>Programming Language : C#</b>
 
-Assumptions of the Program:
+<b>Assumptions of the Program:</b>
 
 My solution works with lower case string only.
 
 Strings that are empty or having numbers in the string are invalid cases.
 
 
-Instructions:
+<b>Instructions:</b>
 
 Upon running the program, 
 
